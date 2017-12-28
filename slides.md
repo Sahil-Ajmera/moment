@@ -647,10 +647,10 @@ seeing the Metropolitan Museum, truly amazing.
 
       <dt>PDF version:</dt>
       <dd>
-        <a href="/slides/moment/?print-pdf">
+        <a href="?print-pdf">
           <i class="fa fa-print"></i>
         </a>
-        <a href="/downloads/moments.pdf">
+        <a href="moments.pdf">
           <i class="fa fa-file-pdf-o"></i>
         </a>
     </dl>
