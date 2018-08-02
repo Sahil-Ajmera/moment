@@ -27,6 +27,11 @@
 
       - 08/2018
     </p>
+    <p align="left"
+       class="col s12 subtitle">
+      **Also available:**
+      <a href="netbox.pdf">PDF</a>
+    </p>
   </div>
 </section>
 ---
