@@ -5,6 +5,18 @@ been given, and for what fate has done for. For better and for worse,
 I cherish these memories, and wish you do, too.
 
 - [1236](1236/)
+
+# Working demos
+
+
 - [Datacenter Infrastructure Management](netbox/)
 - [Workload Solution Store](wss/)
 
+# Export
+
+1. You can follow the [official guide][1] by `reveal.js`.
+2. Or, using the [desktape][2]: `decktape reveal <url> <filename>.pdf`
+
+
+[1]: https://github.com/hakimel/reveal.js#pdf-export
+[2]: https://github.com/astefanutti/decktape
