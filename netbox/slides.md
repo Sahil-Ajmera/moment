@@ -33,9 +33,12 @@
 <h6 class="menu-title">Table of contents</h6>
 
 1. Problems to solve
+1. Demo
 1. Dashboard
 2. Rack
 3. Device
+  1. Device type
+  2. Device role
   1. Interfaces
   2. Bay device
   3. Inventory items
@@ -80,6 +83,15 @@ and by networks. But creating them is time consuming.
 infrastructure components. Netbox created a cohesive data model
 that can be reported and aggregated. Let the computer to compile
 that report for you.
+
+---
+<h6>Demo</h6>
+
+<video width="100%" height="100%" controls="controls">
+  <source src="images/netbox.mp4 " type="video/mp4" />
+  Your browser does not support the video tag.
+  /* instead of the last line you could also add the flash player*/
+</video>
 
 ---
 <h6>Dashboard</h6>
@@ -150,24 +162,105 @@ that report for you.
 ---
 <h6>Device</h6>
 
+<img data-src="images/device.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
+
+1. The center piece of Netbox models is the Device, representing a
+physical device such as server and switch. This makes sense as the
+primary physical asset of a data center are certainly these devices.
+2. Device can be assigned `role` and a `type`.
+
+---
+
+<h6>Device: **Type**</h6>
+
+<img data-src="images/device%20type.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
+
+1. Inventory manufacturer, part number, and such.
+2. Setup **rules** to allows network interface (is `Network Device`), console port, etc..
+
+---
+
+<h6>Device: **Role**</h6>
+
+<img data-src="images/device%20roles.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
+
+1. Flexible for your environment to logically group and manage devices.
+2. Color code.
+
 ---
 <h6>Device: **Interface**</h6>
 
----
+<img data-src="images/device%20interfaces.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
 
-<h6>Device: **Bay device**</h6>
+1. Best way to manage dynamic list such as interface list through **automation**.
+2. Diagnose network issue by seeing exactly which inteface serves the IP you know.
+3. The **only tool on the market to show cable connections**. In the
+   example above, it shows a switch port `1` is connected to port `XGE4`
+   of another switch with IP `10.240.43.28` and is on in slot 39 on
+   rack 4.
 
 ---
 
 <h6>Device: **Inventory item**</h6>
 
+<img data-src="images/device%20inventory%20items.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
+
+1. Build inventory of sub-components inside a server.
+2. Never again to type in **serial number** of a device by hand.
+3. View its configuration and state.
+
 ---
 
 <h6>Device: **Remote management**</h6>
 
+<div class="row">
+  <div class="col s6">
+    <img data-src="images/device%20power%20management.png"
+         class="responsive-img materialboxed center"
+         style="box-shadow:none;">
+  </div>
+  <div class="col s6">
+    <img data-src="images/device%20interface.png"
+         class="responsive-img materialboxed center"
+         style="box-shadow:none;">
+  </div>
+</div>
+
+
+1. Power cycle server and choose a `boot mode`, eg. UEFI, PXE.
+2. Manage switch config at **port level**.
+
 ---
 
-<h6>Device: **Cable connections**</h6>
+<h6>Device: **Networking cable connections**</h6>
+
+<div class="row">
+  <div class="col s9">
+    <img data-src="images/device%20interface%20connections.png"
+         class="responsive-img materialboxed center"
+         style="box-shadow:none;">
+  </div>
+  <div class="col s3">
+    <ol>
+      <li>**Unique feature in the market**.</li>
+      <li>Visualize networking cable connections including
+      **inter-switch** and **server-switch** down to the switch port
+      level.</li>
+      <li>Easy to drill down by simply clicking on `port` and `interface`.</li>
+    </ol>
+  </div>
+</div>
+
 
 ---
 
