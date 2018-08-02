@@ -45,9 +45,7 @@
   4. Remote management
   5. Cable connections
 4. Logical grouping
-  1. by geographical locations
-  2. by tenants
-  3. by clusters
+
 
 ---
 <h6>Problems to solve</h6>
@@ -264,16 +262,21 @@ primary physical asset of a data center are certainly these devices.
 
 ---
 
-<h6>Logical Grouping</h6>
+<h6>Logical grouping</h6>
+
+<img data-src="images/device%20grouping.png"
+     class="responsive-img materialboxed center"
+     style="box-shadow:none;">
+
+1. Map infrastructure  to your business hierarchy.
+2. Data model supports flexible many ways of reporting and information aggregation.
+  1. By `region`,`site` and `tenant`.
+  2. By `device type`, `device role`, `platform`.
+  3. By `rack group`, `tenant group`.
+  4. By `cluster`
+  5. Ultimately, **by any device attribute**.
 
 ---
 
-<h6>Logical grouping: **by geographical location**</h6>
+<h6>THE END</h6>
 
----
-
-<h6>Logical grouping: **by tenants**</h6>
-
----
-
-<h6>Logical grouping: **by clusters**</h6>
