@@ -5,5 +5,6 @@ been given, and for what fate has done for. For better and for worse,
 I cherish these memories, and wish you do, too.
 
 - [1236](1236/)
+- [Datacenter Infrastructure Management](netbox/)
 - [Workload Solution Store](wss/)
 
