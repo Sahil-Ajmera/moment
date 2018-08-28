@@ -12,6 +12,10 @@ I cherish these memories, and wish you do, too.
 - [Datacenter Infrastructure Management](netbox/)
 - [Workload Solution Store](wss/)
 
+# Any
+
+- [2016, Shanghai, NYC](you/)
+
 # Export
 
 1. You can follow the [official guide][1] by `reveal.js`.
